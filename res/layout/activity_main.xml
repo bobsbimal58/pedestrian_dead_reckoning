@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical" >
+
+<Button
+    android:id="@+id/startBTN"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Init" />
+
+<project.hoon.personalnavi.MapView
+    android:id="@+id/pns"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" />
+
+</LinearLayout>
